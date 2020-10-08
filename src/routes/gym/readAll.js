@@ -1,4 +1,4 @@
-import Subsidiary from '../../models/subsidiary'
+import Gym from '../../models/gym'
 import validator from 'validator'
 
 const readAll = async (req, res) => {
@@ -22,9 +22,9 @@ const readAll = async (req, res) => {
       limit,
       page,
     }
-    const subsidiarys = await Subsidiary.paginate(query, options)
-    if (!subsidiarys) res.status(404).json({ message: 'Subsidiarys not found' })
-    else res.json(subsidiarys.docs)
+    const gyms = await Gym.paginate(query, options)
+    if (!gyms) res.status(404).json({ message: 'Gyms not found' })
+    else res.json(gyms.docs)
   } catch (err) {
     res.status(500).json({ message: `Error: ${err}` })
   }

@@ -1,9 +1,9 @@
 import routesAffiliate from './affiliate'
-import routesSubsidiary from './subsidiary'
+import routesGym from './gym'
 
 const routes = (app) => {
   routesAffiliate(app)
-  routesSubsidiary(app)
+  routesGym(app)
 }
 
 export default routes

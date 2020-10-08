@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 import mongoosePaginate from 'mongoose-paginate'
 
-const SubsidiarySchema = new mongoose.Schema(
+const GymSchema = new mongoose.Schema(
   {
     name: {
       type: 'String',
@@ -33,6 +33,6 @@ const SubsidiarySchema = new mongoose.Schema(
   }
 )
 
-SubsidiarySchema.plugin(mongoosePaginate)
+GymSchema.plugin(mongoosePaginate)
 
-export default mongoose.model('Subsidiary', SubsidiarySchema)
+export default mongoose.model('Gym', GymSchema)
