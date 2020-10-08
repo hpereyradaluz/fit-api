@@ -3,7 +3,7 @@
 #
 after clone this repo follow this steps in order to run the api
 #
-1 cd /api-rest-node
+1 cd /fit-api
 #
 2 yarn install 
 #
