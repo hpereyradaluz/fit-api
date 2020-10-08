@@ -12,12 +12,16 @@ after clone this repo follow this steps in order to run the api
 
 #
 
-2 yarn install (if you don't have installed yarn already run-> npm install -g yarn )
+2 set uri for datbase connection
 
 #
 
-3 yarn build (requirement for set up express api using webpack)
+3 yarn install (if you don't have installed yarn already run-> npm install -g yarn )
 
 #
 
-4 yarn start
+4 yarn build (requirement for set up express api using webpack)
+
+#
+
+5 yarn start
