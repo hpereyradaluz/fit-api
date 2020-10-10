@@ -11,7 +11,8 @@ app.use(cors())
 
 const server = http.createServer(app)
 
-const uri = ''
+const uri =
+  'mongodb+srv://infuy:8K0Y1Mb3igPejW0S@cluster0-s7lnh.mongodb.net/test?retryWrites=true&w=majority'
 
 const opt = {
   useNewUrlParser: true,

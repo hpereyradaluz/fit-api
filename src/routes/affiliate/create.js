@@ -6,7 +6,7 @@ const create = async (req, res) => {
     const affiliate = new Affiliate({
       //subsidiary: mongoose.Types.ObjectId(req.body.subsidiary),
       name: req.body.name,
-      lastName: req.body.lastName,
+      lastname: req.body.lastname,
       plan: req.body.plan,
     })
     const newAffiliate = await affiliate.save()
