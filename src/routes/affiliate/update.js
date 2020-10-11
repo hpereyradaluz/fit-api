@@ -8,7 +8,7 @@ const update = async (req, res) => {
       {
         new: true,
       }
-    ) //.populate('author')
+    )
     if (!affiliate) res.status(404).json({ message: 'Affiliate not found' })
     else res.json(affiliate)
   } catch (err) {

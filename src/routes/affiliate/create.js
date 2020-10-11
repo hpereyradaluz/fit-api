@@ -1,10 +1,8 @@
 import Affiliate from '../../models/affiliate'
-//import mongoose from 'mongoose'
 
 const create = async (req, res) => {
   try {
     const affiliate = new Affiliate({
-      //subsidiary: mongoose.Types.ObjectId(req.body.subsidiary),
       name: req.body.name,
       lastname: req.body.lastname,
       plan: req.body.plan,
