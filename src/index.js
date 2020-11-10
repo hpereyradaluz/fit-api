@@ -11,7 +11,7 @@ app.use(cors())
 
 const server = http.createServer(app)
 
-const uri = ''
+const uri = 'mongodb://api:api@localhost:27017/test' // or connect to mongodb atlas instance
 
 const opt = {
   useNewUrlParser: true,
